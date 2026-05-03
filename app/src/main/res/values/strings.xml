@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WalletAI</string>
+
+    <string name="home_subtitle">Track pengeluaran mingguan dan bulanan</string>
+    <string name="this_week">Minggu Ini</string>
+    <string name="this_month">Bulan Ini</string>
+    <string name="rp_zero">Rp0</string>
+
+    <string name="add_manual">Tambah Manual</string>
+    <string name="scan_bill">Scan Bill</string>
+    <string name="import_gallery">Import Galeri</string>
+    <string name="recurring">Recurring</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="settings_backup">Settings &amp; Backup</string>
+
+    <string name="search_hint">Cari merchant, kategori, akun, catatan</string>
+    <string name="filter_history">Filter Riwayat</string>
+    <string name="filter_all">Semua</string>
+    <string name="filter_week">Minggu</string>
+    <string name="filter_month">Bulan</string>
+
+    <string name="transactions_title">Transaksi</string>
+    <string name="empty_transactions">Belum ada transaksi</string>
+
+    <string name="monthly_report">Laporan Bulanan</string>
+    <string name="insight_placeholder">Insight akan tampil di sini</string>
+
+    <string name="category_budget">Budget Kategori</string>
+    <string name="budget_status_placeholder">Status budget akan tampil di sini</string>
+
+    <string name="account_dashboard">Dashboard Akun</string>
+
+    <string name="three_month_stats">Statistik 3 Bulan</string>
+    <string name="three_month_placeholder">Statistik 3 bulan akan tampil di sini</string>
+
+    <string name="hint_merchant">Merchant</string>
+    <string name="hint_amount">Nominal</string>
+    <string name="hint_note">Catatan</string>
+    <string name="hint_monthly_budget">Budget bulanan</string>
+    <string name="hint_recurring_merchant">Merchant / Nama Tagihan</string>
+    <string name="hint_recurring_day">Tanggal setiap bulan, contoh 5</string>
+
+    <string name="transaction_date_label">Tanggal transaksi</string>
+    <string name="pick_date">Pilih Tanggal</string>
+    <string name="dash">-</string>
+
+    <string name="backup_json">Backup JSON</string>
+    <string name="restore_json">Restore JSON</string>
+    <string name="reset_all_data">Reset Semua Data</string>
+
+    <string name="title_add_transaction">Tambah Transaksi</string>
+    <string name="title_edit_transaction">Edit Transaksi</string>
+    <string name="title_set_budget">Set Budget Kategori</string>
+    <string name="title_recurring">Tambah Recurring Expense</string>
+    <string name="title_settings_backup">Settings &amp; Backup</string>
+    <string name="title_transaction_detail">Detail Transaksi</string>
+    <string name="title_delete_transaction">Hapus Transaksi</string>
+    <string name="title_reset_data">Reset Semua Data</string>
+
+    <string name="action_save">Simpan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_close">Tutup</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_next">Next</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_start">Mulai</string>
+
+    <string name="msg_delete_transaction">Yakin mau hapus transaksi %1$s?</string>
+    <string name="msg_reset_data_confirm">Yakin mau hapus semua transaksi, budget, recurring, kategori, dan akun?</string>
+
+    <string name="toast_budget_saved">Budget disimpan</string>
+    <string name="toast_recurring_saved">Recurring disimpan</string>
+    <string name="toast_transaction_saved">Transaksi disimpan</string>
+    <string name="toast_transaction_updated">Transaksi diupdate</string>
+    <string name="toast_transaction_deleted">Transaksi dihapus</string>
+    <string name="toast_no_export_data">Tidak ada data untuk diexport</string>
+    <string name="toast_gallery_read_failed">Gagal membaca file galeri</string>
+    <string name="toast_backup_success">Backup berhasil disimpan</string>
+    <string name="toast_restore_success">Restore berhasil</string>
+    <string name="toast_reset_success">Semua data berhasil direset</string>
+
+    <string name="error_merchant_required">Merchant wajib diisi</string>
+    <string name="error_amount_invalid">Nominal harus lebih dari 0</string>
+    <string name="error_day_invalid">Tanggal harus 1 sampai 31</string>
+
+    <string name="share_csv_title">Share CSV</string>
+    <string name="export_subject">WalletAI Export</string>
+</resources>

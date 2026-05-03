@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Theme utama app -->
+    <style name="Theme.WalletAI" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Warna dasar -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+        <item name="colorOutline">@color/outline</item>
+
+        <!-- Typography WalletAI -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.WalletAI.HeadlineLarge</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.WalletAI.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.WalletAI.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.WalletAI.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.WalletAI.BodyMedium</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.WalletAI.LabelMedium</item>
+
+        <!-- Komponen default -->
+        <item name="materialCardViewElevatedStyle">@style/Widget.WalletAI.Card</item>
+        <item name="materialButtonStyle">@style/Widget.WalletAI.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.WalletAI.OutlinedButton</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/md_theme_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Theme khusus SplashActivity: HARUS turunan Theme.WalletAI / Material -->
+    <style name="Theme.WalletAI.Splash" parent="Theme.WalletAI">
+        <!-- Kalau mau simulasi splash, bisa pakai background dan logo statis -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

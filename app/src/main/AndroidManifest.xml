@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WalletAI">
+
+        <!-- Splash jadi entry point (LAUNCHER) -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.WalletAI.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main/home -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <!-- Layar transaksi & detail -->
+        <activity
+            android:name=".AddTransactionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <activity
+            android:name=".TransactionDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <!-- Settings & laporan -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <activity
+            android:name=".ReportsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <activity
+            android:name=".BudgetSettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <activity
+            android:name=".CategoryTransactionsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <!-- Onboarding / welcome -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <!-- Scan & receipt -->
+        <activity
+            android:name=".ScanReceiptActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <activity
+            android:name=".ReceiptFullScreenActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <!-- Profile -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <!-- Recurring list & form -->
+        <activity
+            android:name=".RecurringListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <activity
+            android:name=".AddRecurringActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <activity
+            android:name=".LockActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WalletAI" />
+
+        <!-- FileProvider untuk kamera & export -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+    </application>
+
+</manifest>

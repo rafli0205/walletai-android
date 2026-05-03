@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Typography WalletAI (Poppins) -->
+
+    <style name="TextAppearance.WalletAI.HeadlineLarge" parent="@style/TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/md_theme_onBackground</item>
+    </style>
+
+    <style name="TextAppearance.WalletAI.TitleLarge" parent="@style/TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/md_theme_onBackground</item>
+    </style>
+
+    <style name="TextAppearance.WalletAI.TitleMedium" parent="@style/TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+    </style>
+
+    <style name="TextAppearance.WalletAI.BodyLarge" parent="@style/TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+    </style>
+
+    <style name="TextAppearance.WalletAI.BodyMedium" parent="@style/TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/md_theme_onSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.WalletAI.LabelMedium" parent="@style/TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/md_theme_onSurfaceVariant</item>
+    </style>
+
+    <!-- Toolbar title khusus -->
+    <style name="ToolbarTitleText" parent="@style/TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/md_theme_onBackground</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Card gaya WalletAI -->
+    <style name="Widget.WalletAI.Card" parent="@style/Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Button utama -->
+    <style name="Widget.WalletAI.Button" parent="@style/Widget.Material3.Button">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:insetTop">10dp</item>
+        <item name="android:insetBottom">10dp</item>
+    </style>
+
+    <!-- Button outline -->
+    <style name="Widget.WalletAI.OutlinedButton" parent="@style/Widget.Material3.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- TextInputLayout gaya WalletAI -->
+    <style name="Widget.WalletAI.TextInputLayout" parent="@style/Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/md_theme_surface</item>
+        <item name="boxStrokeColor">@color/md_theme_outline</item>
+        <item name="android:textColorHint">@color/md_theme_onSurfaceVariant</item>
+    </style>
+
+</resources>

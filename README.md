@@ -1,7 +1,7 @@
 # WalletAI – Aplikasi Manajemen Keuangan Pribadi
-Nama : Rafli Dhiya Fadhaly
 
-NIM : 312410251
+Nama  : Rafli Dhiya Fadhaly  
+NIM   : 312410251  
 
 WalletAI adalah aplikasi manajemen keuangan berbasis Android yang membantu pengguna mencatat pemasukan dan pengeluaran, memantau kondisi keuangan secara real time, dan mendapatkan insight otomatis berbasis AI dari pola transaksi mereka.
 
@@ -11,9 +11,9 @@ WalletAI adalah aplikasi manajemen keuangan berbasis Android yang membantu pengg
 
 - Nama aplikasi : **WalletAI**
 - Platform      : Android (Native, Android Studio)
-- Bahasa        : Kotlin (sesuaikan kalau lo pakai Java)
-- Pengembang    : Rafli Dhiya Fadhaly (ganti dengan nama lengkap lo)
-- Mata kuliah   : (isi nama matkul / tugas project sesuai dosen)
+- Bahasa        : Kotlin
+- Pengembang    : Rafli Dhiya Fadhaly
+- Mata kuliah   : Tugas Project (sesuaikan dengan nama matkul dari dosen)
 
 ---
 
@@ -75,7 +75,7 @@ Bagian ini menjawab permintaan dosen untuk keterangan UI di README.
 ### 3.5. AI Insights Screen
 
 - Menampilkan insight otomatis berdasarkan data transaksi pengguna.  
-- Contoh insight: kategori dengan pengeluaran tertinggi, tren pengeluaran yang naik turun, atau saran penghematan sederhana.  
+- Contoh insight: kategori dengan pengeluaran tertinggi, tren pengeluaran yang naik atau turun, atau saran penghematan sederhana.  
 - Insight diperbarui berdasarkan data transaksi terbaru.
 
 ### 3.6. Settings Screen
@@ -91,18 +91,18 @@ Bagian ini menjawab permintaan dosen untuk keterangan UI di README.
 - Aplikasi membaca informasi penting dari struk (misalnya tanggal dan total belanja) dan mengubahnya menjadi draft transaksi.  
 - Pengguna bisa mengoreksi data terlebih dahulu sebelum menyimpan.
 
-*(Kalau punya screenshot, lo bisa tambahin di bawah tiap subbagian pakai format `![nama](path/gambar.png)`.)*
+*(Kalau punya screenshot, bisa ditambahkan di bawah tiap subbagian dengan format `![nama](path/gambar.png)`.)*
 
 ---
 
 ## 4. Arsitektur & Teknologi
 
-- Pattern arsitektur : (misalnya) MVVM + Repository
+- Pattern arsitektur : MVVM + Repository
 - Database lokal     : SQLite (melalui Room Database)
 - Library utama      :
   - Library chart untuk menampilkan grafik laporan.
   - Library kamera/OCR untuk fitur scan receipt.
-  - Library lain yang digunakan (tulis sesuai project lo).
+  - Library pendukung lain sesuai kebutuhan project.
 
 ---
 
@@ -110,21 +110,23 @@ Bagian ini menjawab permintaan dosen untuk keterangan UI di README.
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/USERNAME/walletai-android.git
+   git clone https://github.com/rafli0205/walletai-android.git
    ```
 2. Buka folder project di **Android Studio**.  
 3. Biarkan Gradle melakukan proses sync.  
 4. Pilih device/emulator Android.  
 5. Klik **Run** untuk menjalankan aplikasi.
 
-Jika ada konfigurasi khusus (misalnya API key untuk layanan tertentu), jelaskan di bagian ini.
+Jika ada konfigurasi khusus (misalnya API key untuk layanan tertentu), tambahkan penjelasan di bagian ini.
 
 ---
 
 ## 6. Link Pendukung
 
-- Link ClickUp (SCRUM / Timeline Pengembangan):  
-  `[tambahkan link ClickUp di sini]`
+- Link ClickUp (SCRUM / Timeline Pengembangan):
+  ```bash
+  https://sharing.clickup.com/90181807968/g/h/2kzm2bv0-638/30b9cea72b8fe05
+  ```
 
 - Dokumentasi tambahan (jika ada):  
-  `[link ke file PDF / drive / lainnya]`
+  (isi jika lo punya link ke laporan PDF atau dokumen lain)

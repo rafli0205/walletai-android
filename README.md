@@ -129,4 +129,4 @@ Jika ada konfigurasi khusus (misalnya API key untuk layanan tertentu), tambahkan
   ```
 
 - Dokumentasi tambahan (jika ada):  
-  (isi jika lo punya link ke laporan PDF atau dokumen lain)
+  https://youtu.be/-v_U62aNTGE?si=WXqF_Vj8VBHnRDGn
